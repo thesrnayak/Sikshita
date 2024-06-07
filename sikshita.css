@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: rgb(136, 244, 244); */
+    background-image: url(websitebackground.png);
+    
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    width: 1536px;
+    background-color: aliceblue;
+    box-shadow: inset;
+    color: black;
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+}
+.navlogo{
+    height: 50px;
+    width: 55px;
+}
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 60px;
+}
+.companylogo{
+    height: 55px;
+    width: 190px;
+    margin-top: 0%;
+
+}
+.sikshitalogo{
+    background-image: url(sikshitalogo2.png);
+    height: 55px;
+    width: 256px;
+    background-size: cover;
+    margin-left:10px;
+    overflow: hidden;
+}
+.searchcontainer{
+    display: flex;
+    margin-left: 400px;
+    margin-top: -35px;
+  
+}
+.searchcontainer input{
+    width: 270px;
+    height: 25px;
+    border-radius: 20px;
+}
+.searchcontainer i{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 5px;
+}
+.button ul{
+    display: flex;
+    margin-left: 800px;
+    margin-top: -23px;
+    text-decoration:none;
+    font-weight: 900;
+    list-style: none;
+    gap: 120px;
+    font-size: large;
+}
+.first{
+    display: flex;
+}
+.heading{
+    color: darkgoldenrod;
+    size: 60px;
+}
+p{
+    position: fixed;
+   margin-top: 250px;
+   color: rgb(252, 252, 252);
+   font-size: 30px;
+   margin-left: 100px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rightsection img{
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+    margin-left: 1000px;
+    margin-top: 100px;
+    position:fixed;
+}
+.lastbutton button{
+    margin-top: 450px;
+    margin-left: 100px;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(144, 235, 226);
+    border-color: rgb(100, 97, 97);
+    border-style: double;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
