@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: rgb(136, 244, 244); */
+    background-image: url(websitebackground.png);
+    
+}
+.navbar{
+    /* position: fixed; */
+    display: flex;
+    height: 60px;
+    width: 1530px;
+    background-color: aliceblue;
+    box-shadow: inset;
+    color: black;
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+}
+.navlogo{
+    height: 50px;
+    width: 55px;
+}
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 60px;
+}
+.companylogo{
+    height: 55px;
+    width: 190px;
+    margin-top: 0%;
+
+}
+.sikshitalogo{
+    background-image: url(sikshitalogo2.png);
+    height: 55px;
+    width: 256px;
+    background-size: cover;
+    margin-left:10px;
+    overflow: hidden;
+}
+.searchcontainer{
+    display: flex;
+    margin-left: 400px;
+    margin-top: -35px;
+  
+}
+.searchcontainer input{
+    width: 270px;
+    height: 25px;
+    border-radius: 20px;
+}
+.searchcontainer i{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 5px;
+}
+.button ul{
+    display: flex;
+    margin-left: 800px;
+    margin-top: -23px;
+    text-decoration:none;
+    font-weight: 900;
+    list-style: none;
+    gap: 110px;
+    font-size: large;
+}
+.first{
+    display: flex;
+    
+}
+.heading{
+    color: darkgoldenrod;
+    size: 60px;
+}
+p{
+    position: absolute;
+   margin-top: 250px;
+   color:#FFFFFF;
+   font-size: 30px;
+   margin-left: 100px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rightsection img{
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+    margin-left: 1000px;
+    margin-top: 100px;
+    position: absolute;
+}
+.lastbutton button{
+    /* position: fixed; */
+    margin-top: 450px;
+    margin-left: 100px;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color:#FFBA0D;
+    border-color: rgb(100, 97, 97);
+    border-style: double;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.firstline{
+    height: 5px;
+    width: 1530px;
+    background-color: gray;
+    margin-top: 100px;
+    position: absolute;
+}
+.leftstudentsection{
+    background-image: url(student4.gif);
+    background-size: cover;
+    height: 500px;
+    width: 600px;
+    margin-top: 300px;
+    /* position:sticky; */
+}
+.studentbuttons {
+    margin-top: -400px;
+    margin-left: 1000px;
+    text-align: justify;
+    height: 10px;
+    width: 200px;
+
+}
+.studentbuttons {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    border-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.studentbuttons button {
+    background-color:  #FFBA0D;
+    border-radius: 8px;
+    box-shadow: black;
+   
+}
+.studentbuttons a {
+    text-decoration: none; /* This removes the underline */
+    color: black; /* This ensures the text color is the same as the button */
+    display: inline-block; /* This makes sure the link fills the button */
+    width: 20px; /* This ensures the link is as wide as the button */
+}
+.studentbuttons button {
+    padding: 10px;
+}
+
+/* second line  */
+.secondline{
+    height: 5px;
+    width: 1530px;
+    background-color: gray;
+    margin-top: 400px;
+    /* position: absolute; */
+}
+.rightteacherssection{
+    background-image: url(teacher2.gif);
+    margin-left: 800px;
+    background-size: cover;
+    height: 400px;
+    width: 680px;
+    margin-top: -1.9cm;
+    position: sticky;
+}
+.teachersbuttons{
+    width: 500px;
+    height: 10px;
+    margin-left: 25px;
+    margin-top: 300px;
+    
+}
+.teachersbuttons {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-left: 90px; /* This adds the left margin to the container */
+    margin-top: 200px;
+}
+
+.teachersbuttons button {
+    background-color: #FFBA0D; /* Sets the background color to yellow */
+    border-radius: 8px; /* Rounds the corners of the buttons */
+    border: none; /* Removes the default border */
+    padding: 10px; /* Adds some padding inside the buttons */
+    margin-left: 35vh;
+
+}
+
+.teachersbuttons a {
+    text-decoration: none; /* Removes the underline from the links */
+    color: inherit; /* Inherits the text color from the parent element */
+    display: block; /* Makes the link fill the entire button */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEdia Queries  */
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+p{
+    text-align: initial;
+        position: absolute;
+       margin-top: 100px;
+       color:#FFFFFF;
+       font-size: 30px;
+       margin-left: 100px;
+      font-weight: 500;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .lastbutton button{
+        /* position: fixed; */
+        margin-top: 450px;
+        margin-left: 500px;
+        height: 80px;
+        width: 250px;
+        border-radius: 20px;
+        background-color:#FFBA0D;
+        border-color: rgb(100, 97, 97);
+        border-style: double;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .studentbuttons a {
+        text-decoration: none; /* This removes the underline */
+        color: black; /* This ensures the text color is the same as the button */
+        display: inline-block; /* This makes sure the link fills the button */
+        width: 190px; /* This ensures the link is as wide as the button */
+        height: 40px;
+        font-size: 25px;
+        text-align: left;
+    }
+    .button ul{
+        margin-left: 750px;
+        gap: 100px;
+        font-size: 25px;
+    }
+}
