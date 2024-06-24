@@ -1,0 +1,273 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.kanharow{
+    display: flex;
+
+}
+.kanharow i{
+    margin-top: 330px;
+    gap: 110px;
+    justify-content: space-between;
+    margin-right: 100px; /* Add spacing between icons */
+    font-size: 2rem;
+    cursor: pointer;
+}
+.kanha{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 500px; 
+    height: auto;
+    border-radius:50cm;
+    
+}
+.rinku{
+    width: 500px; 
+    height: auto;
+}
+.tapas{
+    width: 500px; 
+    height: auto;
+}
+.sai{
+    width: 500px; 
+    height: auto;
+} 
+
+.rightsection{
+ display: grid;
+
+}
+.mynamekanha{
+    position: absolute;
+   margin-top: 200px;
+    margin-left: 500px;
+    font-size: 30px;
+    color:gold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mynamekanhaline2{
+    position: absolute;
+   margin-top: 250px;
+    margin-left: 500px;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* _____________________rinku____________________________________ */
+.rinkurow{
+display: flex;
+    
+}
+.rinkurow i{
+    margin-top: 290px;
+    gap: 110px;
+    justify-content: space-between;
+    margin-right: 110px; /* Add spacing between icons */
+    font-size: 2rem;
+    cursor: pointer;
+}
+.mynamerinku{
+    position: absolute;
+    margin-top: 700px;
+     margin-left: 500px;
+     font-size: 30px;
+     color:gold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mynamerinku2{
+    position: absolute;
+    margin-top: 745px;
+     margin-left: 500px;
+     font-size: 20px;
+     color:rgb(255, 255, 255);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* _____________________________________________sai_______________________________________________________ */
+.sairow{
+    display: flex; 
+}
+.sairow i{
+    margin-top: 300px;
+    gap: 110px;
+    justify-content: space-between;
+    margin-right: 110px; /* Add spacing between icons */
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+}
+.mynamesai{
+    position: absolute;
+    margin-top: 75rem;
+     margin-left: 500px;
+     font-size: 30px;
+     color:gold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mynamesai2{
+    position: absolute;
+    margin-top: 78rem;
+     margin-left: 500px;
+     font-size: 20px;
+     color:rgb(255, 255, 255);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ________________________________________tapas____________________________________________________ */
+.tapasrow{
+    display: flex;
+}
+.tapasrow i{
+    margin-top: 300px;
+    gap: 110px;
+    justify-content: space-between;
+    margin-right: 110px; /* Add spacing between icons */
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+}
+.mynametapas{
+    position: absolute;
+    margin-top: 105.85rem;
+     margin-left: 500px;
+     font-size: 30px;
+     color:gold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mynametapas2{
+    position: absolute;
+    margin-top: 109rem;
+     margin-left: 500px;
+     font-size: 20px;
+     color:rgb(255, 255, 255);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ______________________________mediaqueries______________________________________________ */
+@media only screen and (min-width: 320px) and (max-width: 800px){
+
+.kanha{
+
+    margin-top: 100px;
+    align-items: center;
+    width: 500px; 
+    height: auto;
+}
+.rinku{
+    margin-top: 150px;
+    align-items: center;
+    width: 500px; 
+    height: auto;
+}
+.sai{
+    margin-top: 150px;
+    align-items: center;
+    width: 500px; 
+    height: auto;
+}
+.tapas{
+    margin-top: 100px;
+    align-items: center;
+    width: 500px; 
+    height: auto;
+}
+.mynamekanha{
+    white-space: nowrap;
+    font-size: 45px;
+    margin-top: 250px;
+
+}
+.mynamekanhaline2{
+    margin-top: 320px;
+    font-size: 30px;
+    color: aqua;
+    white-space: nowrap;
+}
+.kanharow i{
+    margin-top: 400px;
+    gap: 110px;
+    justify-content: space-between;
+    margin-right: 75px; /* Add spacing between icons */
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.mynamerinku{
+    white-space: nowrap;
+    font-size: 45px;
+    margin-top: 100vh;
+}
+.mynamerinku2{
+    font-size: 30px;
+    color: aqua;
+    white-space: nowrap; 
+    margin-top: 107vh;
+}
+.rinkurow i{
+    margin-top:500px;
+    gap: 110px;
+    justify-content: space-between;
+    margin-right: 75px; /* Add spacing between icons */
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.mynamesai{
+    white-space: nowrap;
+    font-size: 45px;
+    margin-top: 170vh;
+}
+.mynamesai2{
+    font-size: 30px;
+    color: aqua;
+    white-space: nowrap; 
+    margin-top: 178vh;
+}
+.sairow i{
+    margin-top:500px;
+    gap: 110px;
+    justify-content: space-between;
+    margin-right: 75px; /* Add spacing between icons */
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.mynametapas{
+    white-space: nowrap;
+    font-size: 45px;
+    margin-top: 235vh;
+}
+.mynametapas2{
+    font-size: 30px;
+    color: aqua;
+    white-space: nowrap; 
+    margin-top: 243vh;
+}
+.tapasrow i{
+    margin-top:450px;
+    gap: 110px;
+    justify-content: space-between;
+    margin-right: 75px; /* Add spacing between icons */
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
